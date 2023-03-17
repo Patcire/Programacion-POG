@@ -38,6 +38,7 @@ class Bebida_azucarada:Bebida {
     */
 
     //constructor completo
+
     constructor(
         litros: Double,
         precio: Double,
@@ -52,6 +53,7 @@ class Bebida_azucarada:Bebida {
     }
 
     //constructor secundario por si no recibe identificador
+
     constructor(litros:Double,precio:Double,marca:String,porcentaje_azucar: Int, promocion: Boolean):super(litros,
             precio,marca){
         this.porcentaje_azucar = porcentaje_azucar
