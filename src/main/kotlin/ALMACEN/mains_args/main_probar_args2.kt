@@ -1,4 +1,4 @@
-package ALMACEN
+package ALMACEN.mains_args
 
 fun main(args: Array<String>) {
     //ESTÁ BIEN HECHO PERO NO FUNCIONA

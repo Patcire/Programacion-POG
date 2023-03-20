@@ -72,7 +72,7 @@ class Bebida_azucarada:Bebida {
 
     override fun toString(): String {
         //en vez de escribir agua mineral puedo poner ${this.javaClass}
-        return "Agua_mineral(identificador:$identificador, litros=$litros, precio=$precio, marca='$marca' +" +
+        return "Bebida_azucarada(identificador:$identificador, litros=$litros, precio=$precio, marca='$marca' +" +
                 "porcentaje_azucar=$porcentaje_azucar, promoción=$promocion)"
 
     }

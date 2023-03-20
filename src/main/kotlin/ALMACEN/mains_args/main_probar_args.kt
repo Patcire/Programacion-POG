@@ -1,4 +1,6 @@
-package ALMACEN
+package ALMACEN.mains_args
+
+import ALMACEN.Bebida_azucarada
 
 fun main(args: Array<String>) {
 
@@ -14,7 +16,7 @@ fun main(args: Array<String>) {
     var porcentaje=args[4].toInt()
     var promocion=args[5].toBoolean()
 
-    var asuuucar=Bebida_azucarada(litros, precio, marca, id, porcentaje, promocion )
+    var asuuucar= Bebida_azucarada(litros, precio, marca, id, porcentaje, promocion )
     println(asuuucar.toString())
 
 }

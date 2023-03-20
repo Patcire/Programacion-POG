@@ -1,4 +1,9 @@
-package ALMACEN
+package ALMACEN.mains_args
+
+import ALMACEN.Agua_mineral
+import ALMACEN.Almacen
+import ALMACEN.Bebida
+import ALMACEN.Bebida_azucarada
 
 fun main(args: Array<String>) {
 
@@ -6,22 +11,22 @@ fun main(args: Array<String>) {
     //vamos a probar los objetos y sus funciones
 
     //completa
-    var agua1=Agua_mineral(2.0,1.0,"bezoya",1,"cazorla")
+    var agua1= Agua_mineral(2.0,1.0,"bezoya",1,"cazorla")
     //sin identificador
-    var agua2=Agua_mineral(1.0,1.0,"fontvella","pepe")
+    var agua2= Agua_mineral(1.0,1.0,"fontvella","pepe")
     //dando un identificador que ya existe
-    var agua3=Agua_mineral(3.0, 1.0,"fontvella",1,"sierra")
+    var agua3= Agua_mineral(3.0, 1.0,"fontvella",1,"sierra")
 
     println(agua1.toString())
     println(agua2.toString())
     println(agua3.toString())
 
     //completa
-    var azucar1=Bebida_azucarada(2.0,1.0,"pepito",4,20,true)
+    var azucar1= Bebida_azucarada(2.0,1.0,"pepito",4,20,true)
     //sin identificador
-    var azucar2=Bebida_azucarada(2.0,1.0,"pepito",20,false)
+    var azucar2= Bebida_azucarada(2.0,1.0,"pepito",20,false)
     //identificador que ya existe
-    var azucar3=Bebida_azucarada(2.0,1.0,"mmmm",4,20,true)
+    var azucar3= Bebida_azucarada(2.0,1.0,"mmmm",4,20,true)
 
 
 
@@ -42,9 +47,9 @@ fun main(args: Array<String>) {
 
 
     //extra
-    var azucar4=Bebida_azucarada(4.0,1.0,"pepito", 4,20,true)
-    var azucar5=Bebida_azucarada(4.0,1.0,"sensa", 4,20,true)
-    var agua4=Agua_mineral(3.0, 1.0,"bezoya",1,"sierra")
+    var azucar4= Bebida_azucarada(4.0,1.0,"pepito", 4,20,true)
+    var azucar5= Bebida_azucarada(4.0,1.0,"sensa", 4,20,true)
+    var agua4= Agua_mineral(3.0, 1.0,"bezoya",1,"sierra")
 
     var estanteria1= mutableListOf<Bebida>(agua1, azucar4)
     var estanteria2= mutableListOf<Bebida>(agua2, agua3, azucar1,azucar2,azucar3)
