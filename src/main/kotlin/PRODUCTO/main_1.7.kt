@@ -17,6 +17,7 @@ fun main(args: Array<String>) {
     var total_price_with_discount=0.0
     var total_price=0.0
 
+
     for (i in products_storage){
         println(i.toString())
         println("Para clientes especiales el precio sería ${i.compute_Special_Customer_Price()}")

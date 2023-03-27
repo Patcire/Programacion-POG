@@ -22,4 +22,7 @@ class Coche:Vehiculo_transporte {
                 "---------")
     }
 
+    override fun toString(): String {
+        return "Coche#"+ super.toString()
+    }
 }

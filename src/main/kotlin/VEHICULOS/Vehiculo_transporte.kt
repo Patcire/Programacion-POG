@@ -50,4 +50,8 @@ abstract class Vehiculo_transporte:Vehiculo {
     }
     */
 
+    override fun toString(): String { //solo para ficheros_act4
+        return super.toString()+"#$num_plazas"
+    }
+
 }

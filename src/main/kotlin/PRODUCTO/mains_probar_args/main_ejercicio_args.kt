@@ -4,7 +4,7 @@ import PRODUCTO.*
 
 fun main(args: Array<String>) {
 
-    //Recibe una lista de productos deShopOnline  tipo Tv, mp3, libro crea la lista y calcula el total..
+    //Recibe una lista de productos por args deShopOnline  tipo Tv, mp3, libro crea la lista y calcula el total..
 
     var lista= mutableListOf<Product>()
 
@@ -37,4 +37,14 @@ fun main(args: Array<String>) {
 
     println(lista)
 
+    var total_price_with_discount=0.0
+    var total_price=0.0
+
+    for (producto in lista){
+
+        total_price+=producto.regular_price
+    }
+
+
+    println("El precio de todo el almacen es: $total_price euros")
 }

@@ -35,4 +35,8 @@ abstract class Vehiculo_carga:Vehiculo {
                 "Importe: ${calcular_alquiler()}\n")
     }
 
+    override fun toString(): String { //solo para ficheros_act4
+        return super.toString()+"#$tara"
+    }
+
 }

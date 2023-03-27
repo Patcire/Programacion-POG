@@ -20,4 +20,8 @@ class Bus:Vehiculo_transporte {
                 "BUS" +
                 "---------")
     }
+    override fun toString(): String { //solo para ficheros_act4
+        return "Bus#"+ super.toString()
+    }
+
 }

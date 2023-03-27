@@ -33,8 +33,18 @@ abstract class Vehiculo(matricula: String, dias: Int) {
     abstract fun calcular_alquiler():Double
     abstract fun recibo()
 
+    //recibo ya cumple como toSring, pero tengo que crear el to String cllásico para ficheros_act4 de E/S
+    //que utiliza esta clase
+    override fun toString(): String {
+        return "#$matricula#$dias_alquiler"
+    }
+
     init{
         this.matricula=matricula
         dias_alquiler=dias
     }
+
+
+
+
 }

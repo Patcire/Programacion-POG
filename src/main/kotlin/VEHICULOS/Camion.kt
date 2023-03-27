@@ -21,4 +21,7 @@ class Camion:Vehiculo_carga {
                 "---------")
     }
 
+    override fun toString(): String { //solo para ficheros_act4
+        return "Camion#"+ super.toString()
+    }
 }
