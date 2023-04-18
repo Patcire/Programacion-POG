@@ -13,6 +13,11 @@ class TV(regular_price:Double, manufacturer:String, size:Int)
         return "TV(regular price=${regular_price}, iva: $iva, manufacturer=${manufacturer},size_product=$size_product)"
     }
 
+    //to String2 solo es para la actividad6 de E/S
+    override fun toString2(): String{
+        return("TV#${regular_price}#$iva#$manufacturer#$size_product")
+    }
+
     init {
         size_product=size
     }

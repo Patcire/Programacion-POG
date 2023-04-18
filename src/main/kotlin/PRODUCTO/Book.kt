@@ -18,6 +18,11 @@ class Book:Product{
         return("Book(regular_price:${regular_price}, iva:$iva, publisher: $publisher_book , year: $year_book)")
     }
 
+    //toString2 es para la actividad de escritura de E/S
+    override fun toString2(): String{
+        return("Book#${regular_price}#$iva#$publisher_book#$year_book")
+    }
+
     override fun compute_Special_Customer_Price(): Double {
         return regular_price-2
     }

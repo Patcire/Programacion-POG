@@ -35,7 +35,7 @@ abstract class Product(regularInitialPrice: Double):Relation_Interface {
         //función pedidda en el 1.9
         abstract fun compute_Special_Customer_Price():Double
 
-
+        abstract  fun toString2():String //solo es para la act6 de escritura de E/S
     //1.12 companion object
         companion object {
         //con private jago que desde fuera no me puedan cambiar estos valores

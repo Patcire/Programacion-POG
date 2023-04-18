@@ -1,0 +1,6 @@
+TV#1000.0#21#Sony#50
+TV#1200.0#21#RRRRR#70
+MP3Player#50.0#21#Samsung#verde
+Book#10.0#21#anagrama#1987
+Camera#280.0#21#sony
+Camera#250.0#21#adobe
